@@ -1,0 +1,17 @@
+[
+  {
+    "name": "T-Shirt",
+    "price": 299,
+    "image": "/images/tshirt.jpg"
+  },
+  {
+    "name": "Sneakers",
+    "price": 999,
+    "image": "/images/shoes.jpg"
+  },
+  {
+    "name": "Smart Watch",
+    "price": 1499,
+    "image": "/images/watch.jpg"
+  }
+]

@@ -1,0 +1,13 @@
+---
+import Layout from "../components/Layout.astro";
+import ProductCard from "../components/ProductCard.astro";
+import products from "../data/products.json";
+---
+
+<Layout>
+  <section class="grid grid-cols-1 md:grid-cols-3 gap-6 p-6">
+    {products.map(product => (
+      <ProductCard {...product} />
+    ))}
+  </section>
+</Layout>
